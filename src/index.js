@@ -1,9 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import "tachyons";
 import registerServiceWorker from "./registerServiceWorker";
+import "tachyons";
+import App from "./App/App";
 
-import Card from "./components/Card";
-
-ReactDOM.render(<Card />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
 registerServiceWorker();
